@@ -3,6 +3,8 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
+
+
 // PLAYER OOP CLASS OBJECT WITH FUNCTION.
 class Player {
   name: string;
@@ -44,12 +46,14 @@ class Enemy {
   }
 }
 // GAME STRATING POINT.
-console.log(
-  chalk.yellow.bold.italic("\n\t            WELLCOME TO THE GAME!!!")
+console.log(chalk.blue
+  (`\n\t\t\t<====================================================>`)
 );
+console.log(chalk.bold.underline.green("\n\t\t\t >>--*** WELCOME TO THE ADVENTURE GAME ***--<<\n"));
+console.log(chalk.blue(`\n\t\t\t<====================================================>`));
 console.log(
   chalk.red.bold.italic(`\n\tNOTE: `) +
-    chalk.green.bold.italic(
+    chalk.magenta.bold.italic(
       `YOU HAVE 3 MODES IN THE GAME. EASY, MEDEIUM, HARD.\n\tTHERE ARE DIFFERENT MONSTERS ON EACH MODE.\n\tIF THE GAME LEVELS ARE HARD, THE MONSTERS WILL BE HARD TO HIT.\n`
     )
 );
@@ -598,12 +602,12 @@ while (continueProgram) {
   } else if (gameLevel.levels === "EXIT TO GAME:") {
     console.log(
       chalk.green.bold.italic(
-        `\n\tTHANKS FOR PLAYING THIS GAME.\n\t    GIVE YOUR FEEDBACK TO THIS GAME CREATOR.`
+        `\n\t\t *** THANKS FOR PLAYING THIS GAME.***\n\t    GIVE YOUR FEEDBACK TO THIS GAME CREATOR.`
       )
     );
     console.log(
-      chalk.green.bold.italic(`\tGAME CREATOR NAME IS: =>  `) +
-        chalk.yellow(`"ZAKIA BASHIR"`)
+      chalk.green.bold.italic(`\t*** THIS GAME IS CREATED BY: =>  `) +
+        chalk.yellow(`"ZAKIA BASHIR" ***`)
     );
     break;
   }

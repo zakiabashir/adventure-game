@@ -42,9 +42,11 @@ class Enemy {
     }
 }
 // GAME STRATING POINT.
-console.log(chalk.yellow.bold.italic("\n\t            WELLCOME TO THE GAME!!!"));
+console.log(chalk.blue(`\n\t\t\t<====================================================>`));
+console.log(chalk.bold.underline.green("\n\t\t\t >>--*** WELCOME TO THE ADVENTURE GAME ***--<<\n"));
+console.log(chalk.blue(`\n\t\t\t<====================================================>`));
 console.log(chalk.red.bold.italic(`\n\tNOTE: `) +
-    chalk.green.bold.italic(`YOU HAVE 3 MODES IN THE GAME. EASY, MEDEIUM, HARD.\n\tTHERE ARE DIFFERENT MONSTERS ON EACH MODE.\n\tIF THE GAME LEVELS ARE HARD, THE MONSTERS WILL BE HARD TO HIT.\n`));
+    chalk.magenta.bold.italic(`YOU HAVE 3 MODES IN THE GAME. EASY, MEDEIUM, HARD.\n\tTHERE ARE DIFFERENT MONSTERS ON EACH MODE.\n\tIF THE GAME LEVELS ARE HARD, THE MONSTERS WILL BE HARD TO HIT.\n`));
 // WHILE LOOP
 let continueProgram = true;
 while (continueProgram) {
@@ -438,9 +440,9 @@ while (continueProgram) {
         }
     }
     else if (gameLevel.levels === "EXIT TO GAME:") {
-        console.log(chalk.green.bold.italic(`\n\tTHANKS FOR PLAYING THIS GAME.\n\t    GIVE YOUR FEEDBACK TO THIS GAME CREATOR.`));
-        console.log(chalk.green.bold.italic(`\tGAME CREATOR NAME IS: =>  `) +
-            chalk.yellow(`"ZAKIA BASHIR"`));
+        console.log(chalk.green.bold.italic(`\n\t\t *** THANKS FOR PLAYING THIS GAME.***\n\t    GIVE YOUR FEEDBACK TO THIS GAME CREATOR.`));
+        console.log(chalk.green.bold.italic(`\t*** THIS GAME IS CREATED BY: =>  `) +
+            chalk.yellow(`"ZAKIA BASHIR" ***`));
         break;
     }
 }
