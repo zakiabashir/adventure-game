@@ -602,7 +602,7 @@ while (continueProgram) {
       )
     );
     console.log(
-      chalk.green.bold.italic(`\tGAME CREATOR NAME IS: => `) +
+      chalk.green.bold.italic(`\tGAME CREATOR NAME IS: =>  `) +
         chalk.yellow(`"ZAKIA BASHIR"`)
     );
     break;

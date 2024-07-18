@@ -439,7 +439,7 @@ while (continueProgram) {
     }
     else if (gameLevel.levels === "EXIT TO GAME:") {
         console.log(chalk.green.bold.italic(`\n\tTHANKS FOR PLAYING THIS GAME.\n\t    GIVE YOUR FEEDBACK TO THIS GAME CREATOR.`));
-        console.log(chalk.green.bold.italic(`\tGAME CREATOR NAME IS: => `) +
+        console.log(chalk.green.bold.italic(`\tGAME CREATOR NAME IS: =>  `) +
             chalk.yellow(`"ZAKIA BASHIR"`));
         break;
     }
